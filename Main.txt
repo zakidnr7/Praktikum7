@@ -1,0 +1,28 @@
+package praktikum7;
+
+
+public class Main {
+      public static void main(String[] args) {
+
+            PegawaiTetap pegawaitetap1 = new PegawaiTetap("Harry Potter", "352006141202200210013", 2500000);
+            PegawaiTetap pegawaitetap2 = new PegawaiTetap("Ron Weasly", "372006131105200558119", 4000000);
+            PegawaiTetap pegawaitetap3 = new PegawaiTetap("Hearmione Greanger", "382007151007200777901", 7000000);
+            System.out.println(pegawaitetap1.toString());
+            System.out.println(pegawaitetap2.toString());
+            System.out.println(pegawaitetap3.toString());
+
+            PegawaiHarian pegawaiharian1 = new PegawaiHarian("Axcel Robusta", "362003310304200450912", 75000, 21);
+            PegawaiHarian pegawaiharian2 = new PegawaiHarian("Demirico Yota", "352001021201200160421", 75000, 48);
+            PegawaiHarian pegawaiharian3 = new PegawaiHarian("Fuji Lunaria","311999040519995012013", 75000, 35);
+            System.out.println(pegawaiharian1.toString());
+            System.out.println(pegawaiharian2.toString());
+            System.out.println(pegawaiharian3.toString());
+
+            Sales sales1 = new Sales("Kino Fuyaki", "321997200397199777902", 85, 60000);
+            Sales sales2 = new Sales("Regi Yutawa", "332012060912201233518", 60, 75000);
+            Sales sales3 = new Sales("Degi Lawata", "351994140594199432101", 50, 50000);
+            System.out.println(sales1.toString());
+            System.out.println(sales2.toString());
+            System.out.println(sales3.toString());
+        }
+    }
